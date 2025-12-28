@@ -11,7 +11,7 @@ import SwiftUI
 struct ShadyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VignetteView()
         }
     }
 }

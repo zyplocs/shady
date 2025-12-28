@@ -37,9 +37,9 @@ extension View {
 
 struct VignetteView: View {
     var body: some View {
-        Image(systemName: "cat")
+        Image("Gluee")
             .foregroundStyle(.cyan)
-            .vignette(feather: 0.2)
+            .vignette(radius: 0.2, feather: 0.7)
     }
 }
 

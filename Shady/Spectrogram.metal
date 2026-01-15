@@ -8,18 +8,23 @@
 #include <metal_stdlib>
 using namespace metal;
 
+// Payload
 struct VSOut {
+    // the [[position]] attribute denotes the field as the clip-space  for rasterization
     float4 position [[position]];
     float2 uv;
 };
 
+// Fullscreen triangle
 vertex VSOut spectrogramVS(uint vid [[vertex_id]]) {
+    // Point positions in clip-space: x,y ∈ [-1,1]
     constexpr float2 pos[3] = {
         float2(-1.0, -1.0),
         float2( 3.0, -1.0),
         float2(-1.0,  3.0)
     };
     
+    // Point positions in uv [0,1]
     constexpr float2 uv[3] = {
         float2(0.0, 1.0),
         float2(2.0, 1.0),

@@ -1,6 +1,6 @@
 # Shady
 
-A personal iOS playground for learning and experimenting with **Metal shaders** in a SwiftUI app.
+A personal iOS playground for learning and experimenting with Metal shaders in a SwiftUI app.
 
 ## Overview
 

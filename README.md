@@ -8,7 +8,7 @@ Shady is a sandbox project for exploring GPU-side graphics programming on Apple 
 
 ## Shaders
 
-| File | Description |
+| File | Purpose |
 |---|---|
 | `Vignette.metal` | Radial vignette effect available as both a SwiftUI **stitchable** color effect and a standalone fullscreen-triangle render pass with configurable center, radius, feather, and aspect correction. |
 | `HelloTriangle.metal` | Minimal vertex + fragment pipeline that renders a triangle with a UV-gradient color output — a classic "Hello, World!" for Metal. |
